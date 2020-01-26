@@ -15,7 +15,7 @@ public class DemoTest {
 		driver.get("https://support.tricentis.com/community/webshop.do");
 	//	driver.findElement(By.xpath("//*[@id=\"dropzone0_header\"]/div/div[5]/div/div/div[3]/a")).click();
 		//driver.findElement(By.xpath("//*[@id=\"user_name\"]")).sendKeys("sakshi");
-		
+		System.out.println(driver.getTitle());
 		
 	}
 	
